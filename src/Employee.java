@@ -46,8 +46,7 @@ public class Employee {
     public void setDepartment(Integer department) {
         this.department = department;
     }
-
-    @Override
+        @Override
     public String toString() {
         return "\nФИО сотрудника: " + getEmployeeSurname() +" "+ getEmployeeName()+" "+ getEmployeePatronymic()+", зарплата: " + getSalary()+", Отдел " + getDepartment()+", id: " + getId() ;
     }
